@@ -1,4 +1,4 @@
-# Vector-Quantization---LBG<br />
+# Vector-Quantization-LBG<br />
 Python Implementation of Vector Quantization with Linde–Buzo–Gray algorithm <br />
 #Running <br />
 Just import the module and run, enjoy <br />
