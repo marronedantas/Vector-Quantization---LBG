@@ -5,7 +5,7 @@ Python Implementation of Vector Quantization with Linde–Buzo–Gray algorithm
 
 Just import the module an run, enjoy
 
-#Example
+# Example
 
 from Vector_Quantization import VQ_LGB
 
@@ -14,7 +14,7 @@ iris = datasets.load_digits()
 
 dataset = iris.data
 
-# -dataset -codebook_size -alpha -t_iteration_max
+#-dataset -codebook_size -alpha -t_iteration_max
 
 vq_lg = VQ_LGB(dataset,64,0.00005,3000)
 vq_lg.run()
