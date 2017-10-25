@@ -177,8 +177,6 @@ class VQ_LGB():
 
         while ((t_partial<self.t) and (self.get_distorcion_flag()>self.aplha)):
 
-            print(self.get_distorcion_flag())
-
             #Clear the patterns on the clusters
 
             self.clean_clusters()
